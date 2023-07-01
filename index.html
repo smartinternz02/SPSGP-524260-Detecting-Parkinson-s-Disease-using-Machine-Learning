@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parkinson's Disease Prediction</title>
+    <link rel = "stylesheet" type ="text/css" href ="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">
+            Parkinson's Disease Prediction
+        </div>
+        <form action='/outputpage' method='Post'>
+            <div class="form-row">
+                <div class="input-data">
+                    <input type="text" name="a1" required>
+                    <div class="underline"></div>
+                    <label for="">MDVP:Fo(Hz)</label>
+                </div>
+                <div class="input-data">
+                    <input type="text" name="a2"required>
+                    <div class="underline"></div>
+                    <label for="">MDVP:Fhi(Hz)</label>
+                </div>
+                <div class="input-data">
+                    <input type="text" name="a3"required>
+                    <div class="underline"></div>
+                    <label for="">MDVP:Flo(Hz)</label>
+                </div>
+                <div class="input-data">
+                    <input type="text" name="a4"required>
+                    <div class="underline"></div>
+                    <label for="">MDVP:Jitter(Abs)</label>
+                </div>
+                <div class="input-data">
+                    <input type="text" name="a5"required>
+                    <div class="underline"></div>
+                    <label for="">MDVP:RAP</label>
+                </div>
+                
+            </div>
+            
+            <div class="form-row">
+                <div class="input-data">
+                    <input type="text" name="a6" required>
+                    <div class="underline"></div>
+                    <label for="">MDVP:Shimmer(dB)</label>
+                </div>
+                <div class="input-data">
+                    <input type="text" name="a7" required>
+                    <div class="underline"></div>
+                    <label for="">Shimmer:DDA</label>
+                </div>
+                <div class="input-data">
+                    <input type="text" name="a8" required>
+                    <div class="underline"></div>
+                    <label for="">NHR</label>
+                </div>
+                <div class="input-data">
+                    <input type="text" name="a9" required>
+                    <div class="underline"></div>
+                    <label for="">HNR</label>
+                </div>
+                
+            </div>
+            <div class="form-row">
+                 <div class="input-data">
+                     <input type="text" name="a10" required>
+                     <div class="underline"></div>
+                     <label for="">RPDE</label>
+                 </div>
+                <div class="input-data">
+                    <input type="text" name="a11" required>
+                    <div class="underline"></div>
+                    <label for="">DFA</label>
+                </div>
+                <div class="input-data">
+                    <input type="text" name="a12" required>
+                    <div class="underline"></div>
+                    <label for="">Spread1</label>
+                </div>
+                <div class="input-data">
+                    <input type="text" name="a13" required>
+                    <div class="underline"></div>
+                    <label for="">Spread2</label>
+                </div>
+                <div class="input-data">
+                    <input type="text" name="a14" required>
+                    <div class="underline"></div>
+                    <label for="">D2</label>
+                </div>
+            </div>
+            <div class="form-row submit-btn">
+                <div class="input-data ">
+                    <div class="inner"></div>
+                    <input type="submit" value="submit" class="margin">
+                </div>
+                <div class="input-data ">
+                    <text style="color:red">{{y}}</text>
+                </div>
+                    
+                </div>
+                 
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
